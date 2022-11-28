@@ -15,6 +15,7 @@ class DecisionTree:
         self.min_leaf_size = min_leaf_size
         self.prediction = None
 
+"""
     def mean_squared_error(self, labels, prediction):
         """
         mean_squared_error:
@@ -40,6 +41,7 @@ class DecisionTree:
             print("Error: Input labels must be one dimensional")
 
         return np.mean((labels - prediction) ** 2)
+"""
 
     def train(self, x, y):
         """
