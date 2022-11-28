@@ -18,6 +18,7 @@ class DecisionTree:
 """
     def mean_squared_error(self, labels, prediction):
         """
+        """
         mean_squared_error:
         @param labels: a one dimensional numpy array
         @param prediction: a floating point value
@@ -36,6 +37,7 @@ class DecisionTree:
         ...     TestDecisionTree.helper_mean_squared_error_test(test_labels,
         ...         test_prediction))
         True
+        """
         """
         if labels.ndim != 1:
             print("Error: Input labels must be one dimensional")
